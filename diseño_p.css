@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+.c_padre{
+    height: 800px;
+    margin: 10px;
+    padding: 20px;
+    /*border: 1px solid green;*/
+}
+.c_menu{
+    float: left;
+    width: 19%;
+    border: 1px solid rgb(39, 39, 39);
+    padding-top: 20px;
+    background-color: rgb(63, 62, 62);
+}
+.c_info{
+    width: 80%;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.c_menu, .c_info{
+    height: 100%;
+}
